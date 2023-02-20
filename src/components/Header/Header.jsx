@@ -8,11 +8,19 @@ import { AppBar , Box , Toolbar , Typography , Button , } from '@mui/material'
 
 const Header = () => {
   return (
-    <div>
 
-      <SearchIcon/>
+    <>
+    <AppBar>
+
+       <SearchIcon/>
+
+    </AppBar>
+    
+    
+    </>
+
       
-    </div>
+    
   )
 }
 
